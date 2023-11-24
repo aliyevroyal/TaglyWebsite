@@ -1,0 +1,390 @@
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .navbar-brand,
+  .navbar-brand:hover {
+    margin-left: 2.8rem;
+    width: 6rem;
+  }
+
+  .nav-item {
+    margin-right: 3.6rem;
+  }
+
+  .nav-item a {
+    font-size: 1.2rem;
+  }
+
+  .navbar .FacebookIconForLargerDevices {
+    margin-right: 0.5rem;
+    transform: scale(0.85);
+  }
+
+  .navbar .InstagramIconForLargerDevices {
+    margin-right: 3.6rem;
+    transform: scale(0.85);
+  }
+
+  .intro {
+    height: 46rem;
+  }
+
+  .intro h1 {
+    top: 11rem;
+    left: 3.5rem;
+    width: 50vw;
+    line-height: 6rem;
+    font-size: 4.4rem;
+  }
+
+  .intro h2 {
+    top: 12.5rem;
+    left: 3.5rem;
+    width: 60vw;
+    font-size: 1.75rem;
+  }
+
+  .intro button,
+  .intro button:hover {
+    top: 15rem;
+    height: 4rem;
+    border-radius: 20px;
+    font-size: 1.25rem;
+  }
+
+  .intro button:nth-child(3) {
+    width: 16rem;
+    left: 3.5rem;
+  }
+
+  .intro .secondBr {
+    display: none;
+  }
+
+  .intro button:nth-child(5) {
+    width: 13rem;
+    left: 7rem;
+  }
+
+  .intro img {
+    width: 40vw;
+    top: 5rem;
+    right: 0rem;
+    pointer-events: none;
+  }
+
+  .services {
+    height: 39rem;
+  }
+
+  .services .container .row:nth-child(1) {
+    padding-top: 4.5rem;
+  }
+
+  .services img {
+    width: 2.5rem;
+  }
+
+  .services h6 {
+    padding-top: 2.5rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .services .container .row:nth-child(2) {
+    height: 20rem;
+  }
+
+  .services .CupfyDarkLogo {
+    top: 11rem;
+    left: 1.75rem;
+    width: 14rem;
+  }
+
+  .services h2 {
+    top: 10.5rem;
+    right: -5rem;
+    font-size: 2.25rem;
+    width: 24rem;
+    line-height: 2.9rem;
+  }
+
+  .services p {
+    top: 11rem;
+    left: 13rem;
+    width: 22rem;
+  }
+
+  .process {
+    padding-top: 6.5rem;
+  }
+
+  .process .container {
+    min-width: 100%;
+  }
+
+  .process .imgBox {
+    min-height: 43rem;
+  }
+
+  .process .SecondCup {
+    top: 7rem;
+  }
+
+  .process .h1Box {
+    height: 9.5rem;
+  }
+
+  .process h1 {
+    right: 15.5rem;
+    width: 22rem;
+    font-size: 2.1rem;
+  }
+
+  .process h2 {
+    right: 9.5rem;
+    top: 3rem;
+    font-size: 2.25rem;
+  }
+
+  .process .row:nth-child(2),
+  .process .row:nth-child(3),
+  .process .row:nth-child(4) {
+    height: 10rem;
+  }
+
+  .process .icon {
+    margin-top: 0.5rem;
+    right: 32.5rem;
+    width: 6.5rem;
+  }
+
+  .process h3 {
+    right: 20.25rem;
+    font-size: 1.3rem;
+  }
+
+  .process .row:nth-child(1) p {
+    right: 13.75rem;
+    margin-top: 2.25rem;
+    width: 18rem;
+    line-height: 1.25;
+  }
+
+  .process .appStoreBox,
+  .process .playStoreBox {
+    height: 9.75rem;
+  }
+
+  .process .playStoreBox {
+    min-width: 25rem;
+  }
+
+  .process .appStore {
+    margin-top: 0rem;
+    right: 1.5rem;
+    z-index: 1;
+  }
+
+  .process .playStore {
+    margin-top: 0rem;
+    left: 0rem;
+  }
+
+  .process .contactUs p {
+    padding-top: 4rem;
+    font-size: 1.25rem;
+  }
+
+  .process .contactUs p br {
+    display: none;
+  }
+
+  .pricing .h1Box {
+    margin-top: 6rem;
+    height: 3rem;
+  }
+
+  .pricing .h1Box h1 {
+    left: 1rem;
+    font-size: 2.25rem;
+  }
+
+  .pricing .container .row:nth-child(2) .col-lg:nth-child(1) {
+    margin-top: 1.75rem;
+    height: 3rem;
+  }
+
+  .pricing .container .row:nth-child(2) .col-lg:nth-child(1) p {
+    text-align: justify;
+  }
+
+  .pricing .container .row:nth-child(2) .col-lg:nth-child(2) {
+    margin-top: 1.2rem;
+    height: 3rem;
+  }
+
+  .pricing
+    .container
+    .row:nth-child(2)
+    .col-lg:nth-child(2)
+    button:nth-child(1) {
+    position: absolute;
+    top: 0.25rem;
+    left: 7.5rem;
+    width: 7.5rem;
+    font-size: 0.85rem;
+  }
+
+  .pricing
+    .container
+    .row:nth-child(2)
+    .col-lg:nth-child(2)
+    button:nth-child(2) {
+    position: absolute;
+    top: 0.25rem;
+    left: 17.5rem;
+    width: 7.5rem;
+    font-size: 0.85rem;
+  }
+
+  .pricing .card {
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    height: 30rem;
+  }
+
+  .pricing .card h1 {
+    top: 2.75rem;
+    left: 2rem;
+    font-size: 1.25rem;
+  }
+
+  .pricing .card span {
+    font-size: 2rem;
+  }
+
+  .pricing .card h2 {
+    top: 7.5rem;
+    left: 2rem;
+    font-size: 1.6rem;
+  }
+
+  .pricing .card p {
+    top: 13rem;
+    left: 2rem;
+    width: 10rem;
+    text-align: justify;
+    font-size: 1.1rem;
+  }
+
+  .pricing .card .checkBox {
+    float: left;
+    top: 13.75rem;
+    left: 0.75rem;
+    margin-top: 1.25rem;
+    font-size: 0.9rem;
+  }
+
+  .pricing .card .checkBox img {
+    width: 1.3rem;
+  }
+
+  .partners {
+    margin-top: 2.5rem;
+  }
+
+  .partners h1 {
+    text-align: left;
+  }
+
+  .partners a {
+    top: 1rem;
+  }
+
+  .partners img {
+    padding: 3rem;
+  }
+
+  .map .h1Box {
+    height: 3.25rem;
+  }
+
+  .map h1 {
+    left: 1rem;
+    width: 30rem;
+  }
+
+  .map .imgBox {
+    margin-top: 1rem;
+  }
+
+  .banner {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+  }
+
+  .banner .box {
+    height: 18rem;
+  }
+
+  .banner .ThirdCup {
+    width: 28rem;
+  }
+
+  .banner h2 {
+    top: 5.25rem;
+    left: -7rem;
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+
+  .banner button {
+    top: 6rem;
+    left: 21rem;
+    width: 18rem;
+    height: 4.25rem;
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    height: 22.5rem;
+  }
+
+  .footer .CupfyLogo {
+    float: left;
+    margin-left: 2rem;
+    margin-top: 4.5rem;
+  }
+
+  .footer .smallerDevicesSocialMedia img {
+    display: none;
+  }
+
+  .footer p {
+    float: left;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    text-align: left;
+    font-size: 1.25rem;
+  }
+
+  .footer .appStore {
+    float: left;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: #f5f5f5;
+  }
+
+  .footer .playStore {
+    float: left;
+    margin-top: 3rem;
+    color: #f5f5f5;
+  }
+
+  .footer .privacyPolicy p {
+    float: right;
+    top: 75%;
+    font-size: 1.25rem;
+    color: #ffffff;
+  }
+}

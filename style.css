@@ -1,0 +1,359 @@
+@font-face {
+  font-family: Quicksand-Regular;
+  src: url("resources/Quicksand-Regular.ttf");
+}
+
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url("resources/Quicksand-Bold.ttf");
+}
+
+@font-face {
+  font-family: Quicksand-Semi-Bold;
+  src: url("resources/Quicksand-Semi-Bold.ttf");
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Quicksand-Regular;
+  cursor: default;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  background-color: #f5f5f5;
+}
+
+img {
+  pointer-events: none;
+}
+
+header {
+  position: relative;
+}
+
+.navbar {
+  position: relative;
+  width: 100vw;
+  background-color: #0b423b;
+}
+
+.navbar img {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.nav-link,
+.nav-link:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(238, 237, 238)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-item i {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.modal-body,
+.modal-content,
+.modal-footer {
+  background-color: #ffffff;
+}
+
+.modal-footer {
+  border-top: 1px solid #14cc60;
+}
+
+.modal-title,
+.modal-body,
+.btn-secondary {
+  color: #14cc60;
+}
+
+.intro {
+  position: relative;
+  width: 100vw;
+  background-color: #14cc60;
+}
+
+.intro h1 {
+  position: relative;
+  color: #0a2e36;
+  font-family: Quicksand-Bold;
+}
+
+.intro h2 {
+  position: relative;
+  color: #0a2e36;
+}
+
+.intro button,
+.intro button:hover {
+  position: relative;
+  background-color: #0a2e36;
+  color: #ffffff;
+  font-weight: bold;
+  outline: none !important;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.intro img {
+  position: absolute;
+  float: right;
+}
+
+.services {
+  position: relative;
+  width: 100vw;
+  background-color: #f5f5f5;
+  border-bottom: 0.5px solid #101010;
+}
+
+.services img {
+  cursor: pointer;
+}
+
+.services h6 {
+  color: #101010;
+  cursor: pointer;
+  font-family: Quicksand-Semi-Bold;
+  text-transform: uppercase;
+}
+
+.services .CupfyDarkLogo {
+  position: absolute;
+}
+
+.services h2 {
+  position: absolute;
+  text-align: end;
+  color: #0a2e36;
+  font-family: Quicksand-Semi-Bold;
+}
+
+.services p {
+  position: absolute;
+  text-align: start;
+  color: #0a2e36;
+}
+
+.process {
+  position: relative;
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+
+.process .SecondCup {
+  position: relative;
+}
+
+.process h1 {
+  position: absolute;
+  color: #0a2e36;
+  font-family: Quicksand-Bold;
+}
+
+.process h2 {
+  position: absolute;
+  color: #0a2e36;
+}
+
+.process .icon {
+  position: absolute;
+}
+
+.process h3 {
+  position: absolute;
+  color: #0a2e36;
+  font-family: Quicksand-Bold;
+}
+
+.process .row:nth-child(1) p {
+  position: absolute;
+  color: #101010;
+}
+
+.mdi-36px {
+  font-size: 39px;
+  margin-right: 10px;
+}
+
+.process button:nth-child(1),
+.process button:nth-child(2) {
+  position: absolute;
+}
+
+.process .contactUs p {
+  width: 100%;
+  text-align: center;
+  color: #0a2e36;
+}
+
+.process .contactUs a,
+.process .contactUs a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: Quicksand-Bold;
+}
+
+.pricing {
+  position: relative;
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+
+.pricing .container {
+  position: relative;
+}
+
+.pricing .container .row:nth-child(1) h1 {
+  position: absolute;
+  color: #0a2e36;
+  font-family: Quicksand-Bold;
+}
+
+.pricing .container .row:nth-child(2) .col-lg:nth-child(1) p {
+  color: #848199;
+}
+
+.pricing .container .row:nth-child(2) .col-lg:nth-child(2) button:nth-child(1) {
+  background-color: #14cc60;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.pricing .container .row:nth-child(2) .col-lg:nth-child(2) button:nth-child(2) {
+  color: #0a2e36;
+  border-radius: 20px;
+}
+
+.pricing .card {
+  position: relative;
+  width: 18rem;
+  border-radius: 20px;
+  color: #848199;
+  background-color: #f5f5f5;
+  border: 1px solid #e7e2e2;
+}
+
+.pricing .card span {
+  font-weight: 1000;
+}
+
+.pricing .card h1 {
+  position: absolute;
+}
+
+.pricing .card h2 {
+  position: absolute;
+}
+
+.pricing .card p {
+  position: absolute;
+}
+
+.pricing .card .checkBox {
+  position: relative;
+}
+
+.partners {
+  display: none;
+  position: relative;
+  width: 100vw;
+}
+
+.partners .container {
+  position: relative;
+}
+
+.partners h1 {
+  position: relative;
+  color: #101010;
+}
+
+.partners a {
+  position: relative;
+  cursor: pointer;
+  text-decoration: underline !important;
+  color: #101010;
+}
+
+.map {
+  display: none;
+  position: relative;
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+
+.map .container {
+  position: relative;
+}
+
+.map .container-fluid {
+  position: relative;
+}
+
+.map h1 {
+  position: absolute;
+  color: #101010;
+}
+
+.banner {
+  position: relative;
+  width: 100vw;
+  background-color: #14cc60;
+}
+
+.banner h2 {
+  position: absolute;
+  color: #101010;
+  text-align: left;
+  font-family: Quicksand-Bold;
+}
+
+.banner button,
+.banner button:hover {
+  position: absolute;
+  background-color: #0a2e36;
+  color: #f5f5f5;
+  font-family: Quicksand-Bold;
+  border-radius: 0;
+}
+
+.footer {
+  position: relative;
+  width: 100vw;
+  background-color: #0a2e36;
+  color: #ffffff;
+}
+
+.footer .privacyPolicy p {
+  position: relative;
+}
+
+.footer .largerDevicesSocialMedia img {
+  position: relative;
+}

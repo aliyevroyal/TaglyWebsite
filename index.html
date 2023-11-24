@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cupfy</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Royal Aliyev" />
+    <meta name="description" content="Coffee Subscription" />
+    <meta
+      name="keywords"
+      content="Keywords1,Keywords2,Keywords3,Keywords4,Keywords5"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="XXSmallDevicesStyle.css" />
+    <link rel="stylesheet" href="XSmallDevicesStyle.css" />
+    <link rel="stylesheet" href="SmallDevicesStyle.css" />
+    <link rel="stylesheet" href="MediumDevicesStyle.css" />
+    <link rel="stylesheet" href="LargeDevicesStyle.css" />
+    <link rel="stylesheet" href="XLargeDevicesStyle.css" />
+    <link rel="stylesheet" href="XXLargeDevicesStyle.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <a href="./index.html"
+          ><img src="resources/CupfyLogo.svg" class="navbar-brand"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#process">Necə işləyir?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Abunə Planları</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-toggle="modal"
+                data-target="#modal"
+                href="#"
+                >Partnyorlarımız</a
+              >
+            </li>
+            <li class="nav-item FacebookIconForLargerDevices">
+              <a data-toggle="modal" data-target="#modal">
+                <img src="resources/FacebookIconForLargerDevices.svg" />
+              </a>
+            </li>
+            <li class="nav-item InstagramIconForLargerDevices">
+              <a
+                href="https://instagram.com/cupfy.az?igshid=MzRlODBiNWFlZA=="
+                target="_blank"
+              >
+                <img
+                  id="InstagramIcon"
+                  src="resources/InstagramIconForLargerDevices.svg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div
+      class="modal fade"
+      id="modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">Funksiya tezlikə aktiv olacaq</div>
+          <div class="modal-footer">
+            <a
+              class="btn btn-secondary"
+              type="button"
+              data-dismiss="modal"
+              aria-label="Close"
+              style="color: #f5f5f5; background-color: #14cc60; border: 0px"
+              >Bağla</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="intro">
+      <h1>
+        Ölkənin ilk və tək <br />
+        abunə qəhvə tətbiqi!
+      </h1>
+      <h2>İstəyinizə uyğun abunə planları ilə qəhvə sevginiz bitməsin</h2>
+      <button
+        onClick="document.getElementById('pricing').scrollIntoView();"
+        type="button"
+        class="btn"
+      >
+        Abunə planlarımız
+      </button>
+      <br class="secondBr" />
+      <button
+        type="button"
+        data-toggle="modal"
+        data-target="#modal"
+        class="btn"
+      >
+        Bizə qoşulun!
+      </button>
+      <img src="resources/FirstCup.svg" class="img-fluid" />
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg" align="center">
+            <img src="resources/confetti.svg" class="img-fluid" />
+            <h6>
+              bİr neçə addımda <br />
+              qəhvənİzİ əldə edİn!
+            </h6>
+          </div>
+          <div class="col-lg" align="center">
+            <img src="resources/sale.svg" class="img-fluid" />
+            <h6>
+              50 %-ə qədər <br />
+              xərclərə qənaət
+            </h6>
+          </div>
+          <div class="col-lg" align="center">
+            <img src="resources/MapPoint.svg" class="img-fluid" />
+            <h6>
+              şəhərİn bİr çox <br />
+              yerİndə cupfy nöqtələrİ
+            </h6>
+          </div>
+          <div class="col-lg" align="center">
+            <img src="resources/StarCircle.svg" class="img-fluid" />
+            <h6>
+              İstİfadəçİlər üçün <br />
+              bİtməyən fürsətlər!
+            </h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg" align="center">
+            <img
+              src="resources/CupfyDarkLogo.svg"
+              class="img-fluid CupfyDarkLogo"
+            />
+            <h2>
+              Qəhvə sevginizi <br />
+              hər gün yaşayın!
+            </h2>
+          </div>
+          <div class="col-lg" align="center">
+            <p>
+              Biz qəhvə sevərlərin qəhvəyə olan sevgisini başa düşərək, onlara
+              sevgiləri heç bir zaman bitməsin deyə qənaətli həll gətirdik!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="process">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl imgBox" style="padding-left: 0rem">
+            <img src="resources/SecondCup.png" class="img-fluid SecondCup" />
+          </div>
+          <div class="col-xl" align="left">
+            <div class="row h1Box">
+              <h1>Sadə və effektiv!</h1>
+              <h2>3 addımda qəhvəni əldə et!</h2>
+            </div>
+            <div class="row">
+              <img src="resources/DownloadAppIcon.svg" class="img-fluid icon" />
+              <h3>Mobil tətbiqi yüklə</h3>
+              <p>
+                Mobil tətbiqi Appstore və Playstore-dan yükləyib qeydiyyatdan
+                keç.
+              </p>
+            </div>
+            <div class="row">
+              <img
+                src="resources/ChooseYourPlanIcon.png"
+                class="img-fluid icon"
+              />
+              <h3>Abunə planını seç &nbsp</h3>
+              <p>Sizə ən uyğun 2 abunə planımızdan birini seçərək ödəniş et.</p>
+            </div>
+            <div class="row">
+              <img src="resources/ReadyIcon.svg" class="img-fluid icon" />
+              <h3>Qəhvəniz hazırdır &nbsp</h3>
+              <p>Sizə ən yaxın Cupfy nöqtəsindən qəhvənizi əldə edin.</p>
+            </div>
+            <div class="row">
+              <div class="col-xl appStoreBox">
+                <button
+                  class="btn btn-outline-dark btn-icon-text appStore"
+                  data-toggle="modal"
+                  data-target="#modal"
+                >
+                  <i class="fa fa-apple btn-icon-prepend mdi-36px"></i>
+                  <span class="d-inline-block text-left">
+                    <small class="font-weight-light d-block"
+                      >Available on the</small
+                    >
+                    App Store
+                  </span>
+                </button>
+              </div>
+              <div class="col-xl playStoreBox">
+                <button
+                  data-toggle="modal"
+                  data-target="#modal"
+                  class="btn btn-outline-dark btn-icon-text playStore"
+                >
+                  <i class="fa fa-android btn-icon-prepend mdi-36px"></i>
+                  <span class="d-inline-block text-left">
+                    <small class="font-weight-light d-block"
+                      >Get it on the</small
+                    >
+                    Google Play
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row contactUs">
+          <p>
+            Harada olursanız olun, hər bir fincanınızda <br />
+            sizi eşitmək bizə xoşdur! <br />
+            <a data-toggle="modal" data-target="#modal">Bizə yazın</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="row h1Box">
+          <h1>Abunə planlarımız</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg" align="center">
+            <p>
+              Zövgünuzə uyğun olaraq sizə ən yaxın abunə planlarımızla tanış
+              olun
+            </p>
+          </div>
+          <div class="col-lg" align="center">
+            <button id="15Cups" type="button" class="btn">15 FİNCAN</button>
+            <button id="30Cups" type="button" class="btn">30 FİNCAN</button>
+          </div>
+        </div>
+        <div id="15CupsSubscription" class="row">
+          <div class="col-lg" align="center">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="card-title">
+                  <span style="color: #0b0914; font-family: Quicksand-Bold"
+                    >45₼</span
+                  >/aylıq
+                </h1>
+                <h2 style="color: #0b0914; font-family: Quicksand-Bold">
+                  Nero
+                </h2>
+                <p class="card-text">Daxil olan içkilər:</p>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Americano (10 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Ice Americano (5 fincan)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg" align="center">
+            <div
+              class="card"
+              style="background-color: #0a2e36; color: #f5f5f5; border: none"
+            >
+              <div class="card-body">
+                <h1 class="card-title">
+                  <span style="font-family: Quicksand-Bold">55₼</span>/aylıq
+                </h1>
+                <h2 style="font-family: Quicksand-Bold">Bianco</h2>
+                <p class="card-text">Daxil olan içkilər:</p>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Cappucino (5 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Latte (5 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Ice Latte (5 fincan)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg" align="center">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="card-title">
+                  <span style="color: #0b0914; font-family: Quicksand-Bold"
+                    >50₼</span
+                  >/aylıq
+                </h1>
+                <h2 style="color: #0b0914; font-family: Quicksand-Bold">
+                  Misto
+                </h2>
+                <p class="card-text">Daxil olan içkilər:</p>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Americano (7 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Cappucino (2 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Latte (2 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Ice Americano (2 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Ice Latte (2 fincan)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="30CupsSubscription" class="row" style="display: none">
+          <div class="col-lg" align="center">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="card-title">
+                  <span style="color: #0b0914; font-family: Quicksand-Bold"
+                    >80₼</span
+                  >/aylıq
+                </h1>
+                <h2 style="color: #0b0914; font-family: Quicksand-Bold">
+                  Nero
+                </h2>
+                <p class="card-text">Daxil olan içkilər:</p>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Americano (25 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Ice Americano (5 fincan)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg" align="center">
+            <div
+              class="card"
+              style="background-color: #0a2e36; color: #f5f5f5; border: none"
+            >
+              <div class="card-body">
+                <h1 class="card-title">
+                  <span style="font-family: Quicksand-Bold">100₼</span>/aylıq
+                </h1>
+                <h2 style="font-family: Quicksand-Bold">Bianco</h2>
+                <p class="card-text">Daxil olan içkilər:</p>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Cappucino (15 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Latte (10 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Ice Latte (5 fincan)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg" align="center">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="card-title">
+                  <span style="color: #0b0914; font-family: Quicksand-Bold"
+                    >90₼</span
+                  >/aylıq
+                </h1>
+                <h2 style="color: #0b0914; font-family: Quicksand-Bold">
+                  Misto
+                </h2>
+                <p class="card-text">Daxil olan içkilər:</p>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Americano (14 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Cappucino (4 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Latte (4 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Ice Americano (4 fincan)
+                </div>
+                <div class="checkBox">
+                  <img src="resources/tick.svg" class="img-fluid" />
+                  &nbsp Ice Latte (4 fincan)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg h1Box" align="center">
+            <h1>Our Partner Coffee Shops</h1>
+          </div>
+          <div class="col-lg aBox" align="center">
+            <a>SEE ALL</a>
+          </div>
+        </div>
+        <div class="row" style="border-bottom: 1px solid #9a9b9b">
+          <div
+            class="col"
+            align="center"
+            style="border-right: 1px solid #9a9b9b"
+          >
+            <img src="resources/spotify.png" class="img-fluid" />
+          </div>
+          <div
+            class="col"
+            align="center"
+            style="border-right: 1px solid #9a9b9b"
+          >
+            <img src="resources/spotify.png" class="img-fluid" />
+          </div>
+          <div
+            class="col"
+            align="center"
+            style="border-right: 1px solid #9a9b9b"
+          >
+            <img src="resources/spotify.png" class="img-fluid" />
+          </div>
+          <div class="col" align="center">
+            <img src="resources/spotify.png" class="img-fluid" />
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col"
+            align="center"
+            style="border-right: 1px solid #9a9b9b"
+          >
+            <img src="resources/spotify.png" class="img-fluid" />
+          </div>
+          <div
+            class="col"
+            align="center"
+            style="border-right: 1px solid #9a9b9b"
+          >
+            <img src="resources/spotify.png" class="img-fluid" />
+          </div>
+          <div
+            class="col"
+            align="center"
+            style="border-right: 1px solid #9a9b9b"
+          >
+            <img src="resources/spotify.png" class="img-fluid" />
+          </div>
+          <div class="col" align="center">
+            <img src="resources/spotify.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="container">
+        <div class="row h1Box">
+          <h1>Check out our partners</h1>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row imgBox">
+          <img src="resources/map.png" class="img-fluid" />
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="container-fluid">
+        <div class="row box">
+          <div class="col align-self-center" style="padding: 0rem">
+            <img src="resources/ThirdCup.png" class="img-fluid ThirdCup" />
+          </div>
+          <div class="col">
+            <h2>
+              Bitməyən qəhvə <br />
+              hər yerdə sizinlə!
+            </h2>
+            <button
+              type="button"
+              data-toggle="modal"
+              data-target="#modal"
+              href="#"
+              class="btn"
+            >
+              Cupfy nöqtəsi ol!
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center text-lg-start footer">
+      <div class="container-fluid p-4">
+        <div class="row">
+          <div class="col-lg">
+            <div class="row header">
+              <a href="./index.html"
+                ><img class="CupfyLogo" src="resources/CupfyLogo.svg"
+              /></a>
+              <p>Kofe sevginizi hər gün yaşayın!</p>
+            </div>
+            <div class="row">
+              <div class="col-xl" style="padding: 0rem; padding-right: 1rem">
+                <button
+                  data-toggle="modal"
+                  data-target="#modal"
+                  class="btn btn-outline-light btn-icon-text appStore"
+                >
+                  <i class="fa fa-apple btn-icon-prepend mdi-36px"></i>
+                  <span class="d-inline-block text-left">
+                    <small class="font-weight-light d-block"
+                      >Available on the</small
+                    >
+                    App Store
+                  </span>
+                </button>
+              </div>
+              <div class="col-xl" style="padding: 0rem">
+                <button
+                  data-toggle="modal"
+                  data-target="#modal"
+                  class="btn btn-outline-light btn-icon-text playStore"
+                >
+                  <i class="fa fa-android btn-icon-prepend mdi-36px"></i>
+                  <span class="d-inline-block text-left">
+                    <small class="font-weight-light d-block"
+                      >Get it on the</small
+                    >
+                    Google Play
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="smallerDevicesSocialMedia">
+              <a data-toggle="modal" data-target="#modal">
+                <img
+                  src="resources/FacebookIconForSmallerDevices.svg"
+                  style="border-right: 1px solid #f5f5f5; padding-left: 0rem"
+                  class="img-fluid"
+                />
+              </a>
+              <a
+                href="https://instagram.com/cupfy.az?igshid=MzRlODBiNWFlZA=="
+                target="_blank"
+              >
+                <img
+                  src="resources/InstagramIconForSmallerDevices.svg"
+                  class="img-fluid InstagramIconForSmallerDevices"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg privacyPolicy">
+            <a data-toggle="modal" data-target="#modal">
+              <p style="cursor: pointer">Gizlilik siyasəti</p></a
+            >
+            <p>©2023 Cupfy</p>
+          </div>
+          <div class="col-lg largerDevicesSocialMedia"></div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
