@@ -15,7 +15,7 @@
   }
 
   .nav-item a {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .navbar .url {
@@ -24,11 +24,19 @@
 
   .navbar button,
   .navbar button:hover {
-    height: 4rem;
-    width: 9rem;
+    height: 3.75rem;
+    width: 8rem;
     border-radius: 35px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0rem;
+  }
+
+  .navbar .LoginButton {
+    left: 1rem;
+  }
+
+  .navbar .SignUpButton {
+    right: 1rem;
   }
 
   .intro {

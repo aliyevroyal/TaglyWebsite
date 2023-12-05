@@ -31,6 +31,14 @@
     padding: 0rem;
   }
 
+  .navbar .LoginButton {
+    left: 1rem;
+  }
+
+  .navbar .SignUpButton {
+    right: 1rem;
+  }
+
   .intro {
     height: 46rem;
   }

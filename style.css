@@ -54,7 +54,7 @@ header {
 
 .nav-link,
 .nav-link:hover {
-  color: #282828;
+  color: #484743;
   cursor: pointer;
   font-family: Spartan-Bold;
 }
@@ -62,8 +62,11 @@ header {
 .navbar button,
 .navbar button:hover {
   position: relative;
-  background-color: #f24740;
-  color: #f5f5f5;
+  background-color: transparent;
+  color: #ff3034;
+  border-color: #ff3034;
+  border-style: solid;
+  border-width: 0.25rem;
   font-family: Spartan-Bold;
   outline: none !important;
 }
