@@ -1,5 +1,9 @@
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar {
+    height: 7.5rem;
+  }
+
   .navbar-brand,
   .navbar-brand:hover {
     margin-left: 2.8rem;
@@ -11,17 +15,20 @@
   }
 
   .nav-item a {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
-  .navbar .FacebookIconForLargerDevices {
-    margin-right: 0.5rem;
-    transform: scale(0.85);
+  .navbar .url {
+    margin-top: 0.75rem;
   }
 
-  .navbar .InstagramIconForLargerDevices {
-    margin-right: 3.6rem;
-    transform: scale(0.85);
+  .navbar button,
+  .navbar button:hover {
+    height: 3.75rem;
+    width: 8rem;
+    border-radius: 35px;
+    font-size: 1rem;
+    padding: 0rem;
   }
 
   .intro {
