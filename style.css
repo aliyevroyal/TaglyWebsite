@@ -102,24 +102,30 @@ header {
 .intro {
   position: relative;
   width: 100vw;
-  background-color: #14cc60;
+  background-color: #fff6f7;
 }
 
 .intro h1 {
   position: relative;
-  color: #0a2e36;
+  color: #282828;
+  font-family: Spartan-Bold;
+}
+
+.intro h1 span {
+  position: relative;
+  color: #ee3f44;
   font-family: Spartan-Bold;
 }
 
 .intro h2 {
   position: relative;
-  color: #0a2e36;
+  color: #777777;
 }
 
 .intro button,
 .intro button:hover {
   position: relative;
-  background-color: #0a2e36;
+  background-color: #f24740;
   color: #ffffff;
   font-family: Spartan-Bold;
   outline: none !important;
