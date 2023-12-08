@@ -286,34 +286,6 @@
     width: 1.3rem;
   }
 
-  .partners {
-    margin-top: 2.5rem;
-    background-color: #d9d9d9;
-  }
-
-  .partners h1 {
-    right: 13.5rem;
-    width: 16rem;
-    text-align: left;
-  }
-
-  .partners img {
-    padding: 2rem;
-  }
-
-  .map .h1Box {
-    height: 6.25rem;
-  }
-
-  .map h1 {
-    left: 1rem;
-    width: 16rem;
-  }
-
-  .map .imgBox {
-    margin-top: 1rem;
-  }
-
   .banner {
     margin-top: 3.5rem;
     margin-bottom: 2.5rem;

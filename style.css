@@ -224,6 +224,7 @@ header {
 }
 
 .pricing {
+  display: none;
   position: relative;
   width: 100vw;
   background-color: #fff6f7;
@@ -281,48 +282,6 @@ header {
 
 .pricing .card .checkBox {
   position: relative;
-}
-
-.partners {
-  display: none;
-  position: relative;
-  width: 100vw;
-}
-
-.partners .container {
-  position: relative;
-}
-
-.partners h1 {
-  position: relative;
-  color: #101010;
-}
-
-.partners a {
-  position: relative;
-  cursor: pointer;
-  text-decoration: underline !important;
-  color: #101010;
-}
-
-.map {
-  display: none;
-  position: relative;
-  width: 100vw;
-  background-color: #f5f5f5;
-}
-
-.map .container {
-  position: relative;
-}
-
-.map .container-fluid {
-  position: relative;
-}
-
-.map h1 {
-  position: absolute;
-  color: #101010;
 }
 
 .banner {
