@@ -93,7 +93,7 @@
   }
 
   .services {
-    height: 42rem;
+    height: 44rem;
   }
 
   .services .container .row:nth-child(1) {
@@ -146,8 +146,8 @@
     min-height: 43rem;
   }
 
-  .process .SecondCup {
-    top: 7rem;
+  .process .SeconIllustration {
+    top: 1rem;
   }
 
   .process .h1Box {
@@ -155,15 +155,16 @@
   }
 
   .process h1 {
-    right: 15.5rem;
-    width: 22rem;
-    font-size: 2.1rem;
+    right: 5rem;
+    width: 38rem;
+    font-size: 2.2rem;
   }
 
   .process h2 {
-    right: 9.5rem;
-    top: 3rem;
-    font-size: 2.25rem;
+    right: 5rem;
+    width: 38rem;
+    top: 4rem;
+    font-size: 1.6rem;
   }
 
   .process .row:nth-child(2),
@@ -174,45 +175,25 @@
 
   .process .icon {
     margin-top: 0.5rem;
-    right: 32.5rem;
+    right: 37.5rem;
     width: 6.5rem;
   }
 
   .process h3 {
-    right: 20.25rem;
+    right: 14rem;
+    width: 23rem;
     font-size: 1.3rem;
   }
 
   .process .row:nth-child(1) p {
-    right: 13.75rem;
-    margin-top: 2.25rem;
-    width: 18rem;
-    line-height: 1.25;
-  }
-
-  .process .appStoreBox,
-  .process .playStoreBox {
-    height: 9.75rem;
-  }
-
-  .process .playStoreBox {
-    min-width: 25rem;
-  }
-
-  .process .appStore {
-    margin-top: 0rem;
-    right: 1.5rem;
-    z-index: 1;
-  }
-
-  .process .playStore {
-    margin-top: 0rem;
-    left: 0rem;
+    right: 16rem;
+    margin-top: 2rem;
+    width: 21rem;
+    line-height: 1.5;
   }
 
   .process .contactUs p {
-    padding-top: 4rem;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .process .contactUs p br {

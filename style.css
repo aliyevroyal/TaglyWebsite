@@ -187,19 +187,19 @@ header {
   background-color: #fff6f7;
 }
 
-.process .SecondCup {
+.process .SeconIllustration {
   position: relative;
 }
 
 .process h1 {
   position: absolute;
-  color: #0a2e36;
+  color: #282828;
   font-family: Spartan-Bold;
 }
 
 .process h2 {
   position: absolute;
-  color: #0a2e36;
+  color: #282828;
 }
 
 .process .icon {
@@ -208,7 +208,7 @@ header {
 
 .process h3 {
   position: absolute;
-  color: #0a2e36;
+  color: #282828;
   font-family: Spartan-Bold;
 }
 
@@ -217,27 +217,10 @@ header {
   color: #101010;
 }
 
-.mdi-36px {
-  font-size: 39px;
-  margin-right: 10px;
-}
-
-.process button:nth-child(1),
-.process button:nth-child(2) {
-  position: absolute;
-}
-
 .process .contactUs p {
   width: 100%;
   text-align: center;
   color: #0a2e36;
-}
-
-.process .contactUs a,
-.process .contactUs a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  font-family: Spartan-Bold;
 }
 
 .pricing {

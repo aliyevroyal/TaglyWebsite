@@ -40,7 +40,7 @@
   }
 
   .intro {
-    height: 90rem;
+    height: 85rem;
   }
 
   .intro h1 {
@@ -77,9 +77,9 @@
   }
 
   .intro .FirstIllustration {
-    width: 60vw;
+    width: 50vw;
     top: 45rem;
-    right: 20vw;
+    left: 25vw;
     pointer-events: none;
   }
 
@@ -92,7 +92,7 @@
   }
 
   .services {
-    height: 42rem;
+    height: 44rem;
   }
 
   .services .container .row:nth-child(1) {
@@ -141,8 +141,9 @@
     min-height: 31rem;
   }
 
-  .process .SecondCup {
-    width: 35rem;
+  .process .SeconIllustration {
+    left: 25vw;
+    width: 50vw;
   }
 
   .process .h1Box {
@@ -151,15 +152,15 @@
 
   .process h1 {
     left: 3.5rem;
-    font-size: 1.5rem;
-    width: 20rem;
+    font-size: 2.2rem;
+    width: 38rem;
   }
 
   .process h2 {
-    top: 2.25rem;
+    top: 4rem;
     left: 3.5rem;
     font-size: 1.6rem;
-    width: 20rem;
+    width: 30rem;
   }
 
   .process .row:nth-child(2),
@@ -169,54 +170,31 @@
   }
 
   .process .icon {
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     left: 2.25rem;
-    width: 6rem;
+    width: 6.5rem;
   }
 
   .process h3 {
-    left: 7.75rem;
-    margin-top: 1rem;
-    font-size: 1.1rem;
+    left: 8.5rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
   }
 
   .process .row:nth-child(1) p {
     width: 60vw;
-    left: 7.75rem;
-    margin-top: 3rem;
-    font-size: 0.9rem;
-    line-height: 1.35;
-  }
-
-  .process .appStoreBox {
-    height: 9rem;
-  }
-
-  .process .playStoreBox {
-    height: 6rem;
-  }
-
-  .process .appStore {
-    margin-top: 2rem;
-    left: 7.75rem;
-    width: 11rem;
-    height: 4rem;
-    font-size: 0.9rem;
-  }
-
-  .process .playStore {
-    left: 7.75rem;
-    width: 11rem;
-    height: 4rem;
-    font-size: 0.9rem;
+    left: 8.5rem;
+    margin-top: 4.25rem;
+    font-size: 1rem;
+    line-height: 1.75;
   }
 
   .process .contactUs p {
     margin: 0.25rem;
     margin-left: 5vw;
-    padding-top: 1.5rem;
+    padding-top: 3.5rem;
     width: 90vw;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: center;
   }
 
