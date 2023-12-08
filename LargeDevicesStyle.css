@@ -40,21 +40,22 @@
   }
 
   .intro {
-    height: 80rem;
+    height: 90rem;
   }
 
   .intro h1 {
-    top: 11rem;
+    top: 9rem;
     left: 3.5rem;
-    line-height: 6rem;
-    font-size: 4.4rem;
+    line-height: 5.5rem;
+    font-size: 4.2rem;
   }
 
   .intro h2 {
-    top: 12.5rem;
+    top: 10.5rem;
     left: 3.5rem;
     width: 77vw;
     font-size: 1.75rem;
+    line-height: 3rem;
   }
 
   .intro button,
@@ -66,7 +67,8 @@
   }
 
   .intro button:nth-child(3) {
-    width: 16rem;
+    width: 13rem;
+    top: 14rem;
     left: 3.5rem;
   }
 
@@ -74,20 +76,23 @@
     display: none;
   }
 
-  .intro button:nth-child(5) {
-    width: 13rem;
-    left: 7rem;
-  }
-
-  .intro img {
-    width: 37rem;
-    top: 40rem;
-    right: 0rem;
+  .intro .FirstIllustration {
+    width: 60vw;
+    top: 45rem;
+    right: 20vw;
     pointer-events: none;
   }
 
+  .WatchNowButton {
+    width: 13rem;
+    top: 14rem;
+    left: 5.25rem;
+    pointer-events: visible;
+    cursor: pointer !important;
+  }
+
   .services {
-    height: 39rem;
+    height: 42rem;
   }
 
   .services .container .row:nth-child(1) {
@@ -95,13 +100,13 @@
   }
 
   .services img {
-    width: 2.5rem;
+    width: 10.5rem;
   }
 
   .services h6 {
-    padding-top: 2.5rem;
+    padding-top: 1.5rem;
     font-size: 0.9rem;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
   }
 
   .services .container .row:nth-child(2) {
@@ -109,21 +114,21 @@
   }
 
   .services .CupfyDarkLogo {
-    top: 11rem;
+    top: 8.5rem;
     left: 1.75rem;
-    width: 14rem;
+    width: 12rem;
   }
 
   .services h2 {
     top: 10.5rem;
     right: -5rem;
-    font-size: 2.25rem;
-    width: 24rem;
-    line-height: 2.9rem;
+    font-size: 1.75rem;
+    width: 25rem;
+    line-height: 2.5rem;
   }
 
   .services p {
-    top: 10.5rem;
+    top: 10.25rem;
     left: 13rem;
     width: 18rem;
   }
