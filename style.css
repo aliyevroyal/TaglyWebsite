@@ -164,7 +164,7 @@ header {
   text-transform: uppercase;
 }
 
-.services .CupfyDarkLogo {
+.services .Logo {
   position: absolute;
 }
 
@@ -305,5 +305,16 @@ header {
 
 .banner .AdobeStockIcon,
 .banner .ShutterStockIcon {
+  position: relative;
+}
+
+.footer {
+  position: relative;
+  width: 100vw;
+  background-color: #fceced;
+  color: #282828;
+}
+
+.footer .privacyPolicy p {
   position: relative;
 }

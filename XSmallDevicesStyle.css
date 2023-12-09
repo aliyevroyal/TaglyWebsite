@@ -85,7 +85,7 @@
     height: 30rem;
   }
 
-  .services .CupfyDarkLogo {
+  .services .Logo {
     top: 5rem;
     left: 6vw;
     width: 7rem;
@@ -155,29 +155,6 @@
     margin-top: 3rem;
     font-size: 0.9rem;
     line-height: 1.35;
-  }
-
-  .process .appStoreBox {
-    height: 9rem;
-  }
-
-  .process .playStoreBox {
-    height: 6rem;
-  }
-
-  .process .appStore {
-    margin-top: 3rem;
-    left: 7rem;
-    width: 11rem;
-    height: 4rem;
-    font-size: 0.9rem;
-  }
-
-  .process .playStore {
-    left: 7rem;
-    width: 11rem;
-    height: 4rem;
-    font-size: 0.9rem;
   }
 
   .process .contactUs p {

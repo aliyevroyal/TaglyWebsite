@@ -114,7 +114,7 @@
     height: 20rem;
   }
 
-  .services .CupfyDarkLogo {
+  .services .Logo {
     top: 8.5rem;
     left: 1.75rem;
     width: 12rem;
@@ -322,5 +322,30 @@
   .banner .ShutterStockIcon {
     top: 7.25rem;
     left: 3rem;
+  }
+
+  .footer {
+    height: 22.5rem;
+  }
+
+  .footer .Logo {
+    float: left;
+    margin-left: 2rem;
+    margin-top: 4.5rem;
+  }
+
+  .footer p {
+    float: left;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    text-align: left;
+    font-size: 1.25rem;
+  }
+
+  .footer .privacyPolicy p {
+    float: right;
+    top: 75%;
+    font-size: 1.25rem;
+    color: #ffffff;
   }
 }
