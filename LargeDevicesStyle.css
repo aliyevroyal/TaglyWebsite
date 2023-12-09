@@ -1,61 +1,68 @@
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar {
-    height: 7.5rem;
+    height: 4rem;
   }
 
-  .navbar-brand,
-  .navbar-brand:hover {
-    margin-left: 2.8rem;
-    width: 6rem;
-  }
-
-  .nav-item {
-    margin-right: 3.6rem;
+  .navbar .Logo {
+    width: 5rem;
+    margin-left: 6rem;
   }
 
   .nav-item a {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .navbar .url {
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .item {
+    margin-right: 1.25rem;
+  }
+
+  .EnglishItem {
+    margin-right: 10.8rem;
   }
 
   .navbar button,
   .navbar button:hover {
-    height: 3.75rem;
-    width: 8rem;
-    border-radius: 35px;
-    font-size: 1rem;
+    margin-top: 0.4rem;
+    height: 2.25rem;
+    width: 5.5rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
     padding: 0rem;
+    border-width: 0.1rem !important;
+    padding-top: 0.25rem;
   }
 
   .navbar .LoginButton {
-    left: 1rem;
+    right: 8.2rem;
   }
 
   .navbar .SignUpButton {
-    right: 1rem;
+    right: 6.6rem;
   }
 
   .intro {
-    height: 85rem;
+    height: 74rem;
   }
 
   .intro h1 {
-    top: 9rem;
-    left: 3.5rem;
-    line-height: 5.5rem;
-    font-size: 4.2rem;
+    top: 6.5rem;
+    left: 7.75rem;
+    width: 50vw;
+    line-height: 3.75rem;
+    font-size: 2.8rem;
   }
 
   .intro h2 {
-    top: 10.5rem;
-    left: 3.5rem;
-    width: 77vw;
-    font-size: 1.75rem;
-    line-height: 3rem;
+    top: 8rem;
+    left: 7.75rem;
+    width: 60vw;
+    font-size: 1rem;
+    line-height: 1.75rem;
   }
 
   .intro button,
@@ -63,13 +70,13 @@
     top: 15rem;
     height: 4rem;
     border-radius: 20px;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .intro button:nth-child(3) {
     width: 13rem;
-    top: 14rem;
-    left: 3.5rem;
+    top: 11rem;
+    left: 7.75rem;
   }
 
   .intro .secondBr {
@@ -78,15 +85,15 @@
 
   .intro .FirstIllustration {
     width: 50vw;
-    top: 45rem;
+    top: 35rem;
     left: 25vw;
     pointer-events: none;
   }
 
-  .WatchNowButton {
-    width: 13rem;
-    top: 14rem;
-    left: 5.25rem;
+  .intro .WatchNowButton {
+    width: 12rem;
+    top: 11rem;
+    left: 11rem;
     pointer-events: visible;
     cursor: pointer !important;
   }
