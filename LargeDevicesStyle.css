@@ -107,13 +107,13 @@
   }
 
   .services img {
-    width: 10.5rem;
+    width: 9.5rem;
   }
 
   .services h6 {
     padding-top: 1.5rem;
-    font-size: 0.9rem;
-    line-height: 1.75rem;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
   }
 
   .services .container .row:nth-child(2) {
@@ -122,22 +122,22 @@
 
   .services .Logo {
     top: 8.5rem;
-    left: 1.75rem;
-    width: 12rem;
+    left: 3rem;
+    width: 11rem;
   }
 
   .services h2 {
     top: 10.5rem;
     right: -5rem;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     width: 25rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
   }
 
   .services p {
-    top: 10.25rem;
-    left: 13rem;
-    width: 18rem;
+    top: 10.5rem;
+    left: 10rem;
+    width: 20rem;
   }
 
   .process {
@@ -158,15 +158,15 @@
   }
 
   .process h1 {
-    left: 3.5rem;
-    font-size: 2.2rem;
+    left: 8rem;
+    font-size: 1.75rem;
     width: 38rem;
   }
 
   .process h2 {
     top: 4rem;
-    left: 3.5rem;
-    font-size: 1.6rem;
+    left: 8rem;
+    font-size: 1.1rem;
     width: 30rem;
   }
 
@@ -178,21 +178,21 @@
 
   .process .icon {
     margin-top: 2.5rem;
-    left: 2.25rem;
+    left: 6.25rem;
     width: 6.5rem;
   }
 
   .process h3 {
-    left: 8.5rem;
-    margin-top: 2rem;
-    font-size: 1.3rem;
+    left: 12rem;
+    margin-top: 2.75rem;
+    font-size: 1rem;
   }
 
   .process .row:nth-child(1) p {
     width: 60vw;
-    left: 8.5rem;
-    margin-top: 4.25rem;
-    font-size: 1rem;
+    left: 12rem;
+    margin-top: 4.5rem;
+    font-size: 0.8rem;
     line-height: 1.75;
   }
 
@@ -201,7 +201,7 @@
     margin-left: 5vw;
     padding-top: 3.5rem;
     width: 90vw;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: center;
   }
 
@@ -305,31 +305,69 @@
   }
 
   .banner .box {
-    height: 35rem;
+    height: 30rem;
   }
 
   .banner h2 {
     top: 4rem;
-    left: 3.25rem;
+    left: 6.75rem;
     width: 28rem;
-    font-size: 1.75rem;
+    font-size: 1.8rem;
   }
 
   .banner h3 {
     top: 5rem;
-    font-size: 1.1rem;
-    left: 3.25rem;
+    font-size: 1rem;
+    left: 6.75rem;
   }
 
   .banner .AdobeStockIcon,
   .banner .ShutterStockIcon {
     top: 2rem;
-    left: 3.25rem;
-    width: 17.5rem;
+    left: 6.75rem;
+    width: 15rem;
   }
 
   .banner .ShutterStockIcon {
     top: 0rem;
-    left: 3.25rem;
+  }
+
+  .footer {
+    height: 20rem;
+  }
+
+  .footer .Logo {
+    float: left;
+    width: 11rem;
+    margin-left: 6.25rem;
+    margin-top: 5rem;
+  }
+
+  .footer p {
+    font-size: 1.1rem;
+  }
+
+  .footer .description {
+    float: left;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 7.75rem;
+    font-size: 0.8rem;
+  }
+
+  .footer .policy {
+    float: right;
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: 8.75rem;
+    font-size: 1rem;
+    font-family: Spartan-Semi-Bold;
+  }
+
+  .footer .SocialMedia img {
+    float: left;
+    width: 3rem;
+    margin-left: 1.5rem;
+    margin-top: 7rem;
   }
 }
