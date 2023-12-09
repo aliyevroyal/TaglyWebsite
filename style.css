@@ -315,6 +315,6 @@ header {
   color: #282828;
 }
 
-.footer .privacyPolicy p {
-  position: relative;
+.footer .policy {
+  font-family: Spartan-Semi-Bold;
 }

@@ -330,22 +330,34 @@
 
   .footer .Logo {
     float: left;
+    width: 11rem;
     margin-left: 2rem;
-    margin-top: 4.5rem;
+    margin-top: 8rem;
   }
 
   .footer p {
-    float: left;
-    margin-left: 2rem;
-    margin-top: 1.5rem;
-    text-align: left;
     font-size: 1.25rem;
   }
 
-  .footer .privacyPolicy p {
+  .footer .description {
+    float: left;
+    text-align: left;
+    margin-left: 0rem;
+    margin-top: 10rem;
+  }
+
+  .footer .policy {
     float: right;
-    top: 75%;
-    font-size: 1.25rem;
-    color: #ffffff;
+    text-align: right;
+    margin-left: 0rem;
+    margin-top: 10.5rem;
+    font-family: Spartan-Semi-Bold;
+  }
+
+  .footer .SocialMedia img {
+    float: left;
+    width: 4rem;
+    margin-left: 1.5rem;
+    margin-top: 9rem;
   }
 }
