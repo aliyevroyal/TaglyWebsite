@@ -1,25 +1,24 @@
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 500px) and (max-width: 767.98px) {
-  .navbar-brand,
-  .navbar-brand:hover {
-    margin-left: 0.75rem;
-    width: 6rem;
+  .navbar .Logo {
+    width: 5rem;
   }
 
   .nav-item {
-    margin-left: 0.75rem;
+    margin-left: 1rem;
   }
 
   .nav-item a {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 
-  .nav-item img {
+  .navbar .LoginButton,
+  .SignUpButton {
     display: none;
   }
 
   .intro {
-    height: 60rem;
+    height: 57rem;
   }
 
   .intro h1 {
@@ -27,14 +26,19 @@
     left: 1.75rem;
     width: 90vw;
     line-height: 3rem;
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
 
   .intro h2 {
     top: 6rem;
     left: 1.75rem;
     width: 80vw;
-    font-size: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .intro h2 br {
+    display: none;
   }
 
   .intro button,
@@ -42,7 +46,8 @@
     left: 1.75rem;
     border-radius: 60px;
     height: 3rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding-top: 0.75rem;
   }
 
   .intro button:nth-child(3) {
@@ -50,19 +55,23 @@
     top: 7.5rem;
   }
 
-  .intro button:nth-child(5) {
+  .intro .WatchNowButton {
     width: 9rem;
-    top: 8.75rem;
+    top: 9rem;
+    left: 1.75rem;
+    pointer-events: visible;
+    cursor: pointer !important;
   }
 
-  .intro img {
-    width: 29rem;
-    top: 28rem;
-    right: 0rem;
+  .intro .FirstIllustration {
+    width: 70vw;
+    top: 29rem;
+    left: 15vw;
+    pointer-events: none;
   }
 
   .services {
-    height: 90rem;
+    height: 100rem;
   }
 
   .services .container {
@@ -71,12 +80,12 @@
 
   .services img {
     padding-top: 4rem;
-    width: 3.5rem;
+    width: 7.5rem;
   }
 
   .services h6 {
-    padding-top: 4rem;
-    font-size: 1.25rem;
+    padding-top: 3rem;
+    font-size: 1rem;
     line-height: 2rem;
   }
 
@@ -85,37 +94,37 @@
   }
 
   .services .Logo {
-    top: 5rem;
-    left: 5vw;
-    width: 7rem;
+    top: 4rem;
+    left: 1.75rem;
+    width: 6rem;
   }
 
   .services h2 {
     top: 8.5rem;
     right: 6vw;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     width: 17rem;
     line-height: 1.75rem;
   }
 
   .services p {
     top: 1.5rem;
-    left: 5vw;
     width: 90vw;
     font-size: 1rem;
     text-align: center;
   }
 
   .process {
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
 
   .process .imgBox {
-    min-height: 27.5rem;
+    min-height: 18rem;
   }
 
-  .process .SecondCup {
-    width: 30rem;
+  .process .SeconIllustration {
+    width: 80vw;
+    left: 17.5vw;
   }
 
   .process .h1Box {
@@ -123,15 +132,16 @@
   }
 
   .process h1 {
-    left: 2rem;
+    left: 1.75rem;
     font-size: 1.5rem;
     width: 20rem;
+    line-height: 1.5;
   }
 
   .process h2 {
-    top: 2.25rem;
-    left: 2rem;
-    font-size: 1.6rem;
+    top: 5rem;
+    left: 1.75rem;
+    font-size: 1.25rem;
     width: 20rem;
   }
 
@@ -142,32 +152,35 @@
   }
 
   .process .icon {
-    margin-top: 1.5rem;
-    left: 1rem;
+    margin-top: 5rem;
+    left: 0.75rem;
     width: 6rem;
   }
 
   .process h3 {
-    left: 7rem;
-    margin-top: 1rem;
-    font-size: 1.1rem;
+    left: 6.25rem;
+    margin-top: 4.5rem;
+    font-size: 1rem;
   }
 
   .process .row:nth-child(1) p {
-    width: 60vw;
-    left: 7rem;
-    margin-top: 3rem;
-    font-size: 0.9rem;
+    width: 66vw;
+    left: 6.25rem;
+    margin-top: 6.5rem;
+    font-size: 0.8rem;
     line-height: 1.35;
   }
 
   .process .contactUs p {
-    margin: 0.25rem;
-    margin-left: 5vw;
-    padding-top: 1.5rem;
-    width: 90vw;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    margin-top: 5rem;
     font-size: 0.9rem;
     text-align: center;
+  }
+
+  .process .contactUs p br {
+    display: none;
   }
 
   .pricing .h1Box {
@@ -185,14 +198,15 @@
   }
 
   .pricing .container .row:nth-child(2) .col-lg:nth-child(1) p {
-    text-align: left;
+    text-align: justify;
     font-size: medium;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
+    width: 85vw;
     font-size: 0.9rem;
   }
 
   .pricing .container .row:nth-child(2) .col-lg:nth-child(2) {
-    height: 3.5rem;
+    height: 3rem;
   }
 
   .pricing
@@ -256,26 +270,77 @@
   }
 
   .banner {
-    margin-top: 3rem;
-    margin-bottom: 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
   }
 
   .banner .box {
-    height: 8rem;
+    height: 30rem;
   }
 
   .banner h2 {
-    top: 1rem;
-    left: 2rem;
-    font-size: 0.9rem;
-    line-height: 1.1rem;
+    top: 4rem;
+    left: 1.75rem;
+    width: 28rem;
+    font-size: 1.5rem;
   }
 
-  .banner button {
-    left: 2rem;
-    bottom: 2rem;
-    width: 6.75rem;
-    height: 2rem;
-    font-size: 0.5rem;
+  .banner h3 {
+    top: 5rem;
+    font-size: 1rem;
+    left: 1.75rem;
+  }
+
+  .banner .AdobeStockIcon,
+  .banner .ShutterStockIcon {
+    top: 2rem;
+    left: 1.75rem;
+    width: 12.5rem;
+  }
+
+  .banner .ShutterStockIcon {
+    top: 0rem;
+  }
+
+  .footer {
+    height: 26rem;
+  }
+
+  .footer .Logo {
+    float: left;
+    width: 6rem;
+    margin-left: 1.25rem;
+  }
+
+  .footer p {
+    font-size: 1rem;
+  }
+
+  .footer p br {
+    display: none;
+  }
+
+  .footer .description {
+    float: left;
+    text-align: left;
+    margin-left: 1.25rem;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .footer .policy {
+    float: left;
+    text-align: left;
+    margin-left: 1.25rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-family: Spartan-Semi-Bold;
+  }
+
+  .footer .SocialMedia img {
+    float: left;
+    width: 3rem;
+    margin-left: 1.25rem;
+    margin-top: 0.5rem;
   }
 }
