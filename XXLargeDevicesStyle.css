@@ -95,7 +95,7 @@
   }
 
   .services {
-    height: 44rem;
+    height: 38rem;
   }
 
   .services .container .row:nth-child(1) {
@@ -134,6 +134,10 @@
     top: 10.25rem;
     left: 13rem;
     width: 24rem;
+  }
+
+  .process {
+    padding-top: 6.5rem;
   }
 
   .process .container {

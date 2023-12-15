@@ -33,7 +33,7 @@ body {
   background-color: #fff6f7;
 }
 
-img {
+body img {
   pointer-events: none;
 }
 
@@ -97,6 +97,22 @@ header {
 .nav-item i {
   color: #ffffff;
   cursor: pointer;
+}
+
+.modal-body,
+.modal-content,
+.modal-footer {
+  background-color: #fceced;
+}
+
+.modal-footer {
+  border-top: 1px solid #ff3034;
+}
+
+.modal-title,
+.modal-body,
+.btn-secondary {
+  color: #ff3034;
 }
 
 .intro {
@@ -317,4 +333,9 @@ header {
 
 .footer .policy {
   font-family: Spartan-Semi-Bold;
+}
+
+.footer .SocialMedia img {
+  pointer-events: all;
+  cursor: pointer;
 }

@@ -36,7 +36,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg">
-        <a class="nav-link" href="#process"
+        <a class="nav-link" href="./index.html"
           ><img src="resources/Logo.svg" class="img-fluid Logo"
         /></a>
         <button
@@ -53,27 +53,58 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="url nav-item item">
-              <a class="nav-link" href="#process">About Us</a>
+              <a class="nav-link" href="#services">About Us</a>
             </li>
             <li class="url nav-item item">
-              <a class="nav-link" href="#pricing">Learn More</a>
+              <a class="nav-link" href="#process">Learn More</a>
             </li>
             <li class="url nav-item item">
               <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="url nav-item EnglishItem">
-              <a class="nav-link" href="#pricing">English</a>
+              <a class="nav-link" data-toggle="modal" data-target="#modal"
+                >English</a
+              >
             </li>
             <li class="nav-item">
-              <button type="button" class="LoginButton btn">Login</button>
+              <a data-toggle="modal" data-target="#modal">
+                <button type="button" class="LoginButton btn">Login</button>
+              </a>
             </li>
             <li class="nav-item">
-              <button type="button" class="SignUpButton btn">Sign Up</button>
+              <a data-toggle="modal" data-target="#modal">
+                <button type="button" class="SignUpButton btn">Sign Up</button>
+              </a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
+
+    <div
+      class="modal fade"
+      id="modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">Feature coming soon!</div>
+          <div class="modal-footer">
+            <a
+              class="btn btn-secondary"
+              type="button"
+              data-dismiss="modal"
+              aria-label="Close"
+              style="color: #f5f5f5; background-color: #ff3034; border: 0px"
+              >Close</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section class="intro">
       <h1>
@@ -86,21 +117,26 @@
         Automated Keywords and Titles
       </h2>
       <button
-        onClick="document.getElementById('pricing').scrollIntoView();"
+        onClick="document.getElementById('process').scrollIntoView();"
         type="button"
         class="btn"
       >
         Get started
       </button>
       <br class="secondBr" />
-      <img src="resources/WatchNowIcon.svg" class="WatchNowButton img-fluid" />
+      <a data-toggle="modal" data-target="#modal">
+        <img
+          src="resources/WatchNowIcon.svg"
+          class="WatchNowButton img-fluid"
+        />
+      </a>
       <img
         src="resources/FirstIllustration.svg"
         class="FirstIllustration img-fluid"
       />
     </section>
 
-    <section class="services">
+    <section id="services" class="services">
       <div class="container">
         <div class="row">
           <div class="col-lg" align="center">
@@ -438,16 +474,10 @@
             <p class="policy">©2023 Tagly.ai</p>
           </div>
           <div class="col-lg SocialMedia">
-            <a
-              href="https://instagram.com/cupfy.az?igshid=MzRlODBiNWFlZA=="
-              target="_blank"
-            >
+            <a data-toggle="modal" data-target="#modal">
               <img src="resources/FacebookIcon.svg" class="img-fluid" />
             </a>
-            <a
-              href="https://instagram.com/cupfy.az?igshid=MzRlODBiNWFlZA=="
-              target="_blank"
-            >
+            <a data-toggle="modal" data-target="#modal">
               <img src="resources/InstagramIcon.svg" class="img-fluid" />
             </a>
           </div>
