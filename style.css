@@ -240,7 +240,6 @@ header {
 }
 
 .pricing {
-  display: none;
   position: relative;
   width: 100vw;
   background-color: #fff6f7;
@@ -261,43 +260,14 @@ header {
 }
 
 .pricing .container .row:nth-child(2) .col-lg:nth-child(2) button:nth-child(1) {
-  background-color: #14cc60;
+  background-color: #ff3034;
   color: #ffffff;
   border-radius: 20px;
 }
 
 .pricing .container .row:nth-child(2) .col-lg:nth-child(2) button:nth-child(2) {
-  color: #0a2e36;
+  color: #ff3034;
   border-radius: 20px;
-}
-
-.pricing .card {
-  position: relative;
-  width: 18rem;
-  border-radius: 20px;
-  color: #848199;
-  background-color: #f5f5f5;
-  border: 1px solid #e7e2e2;
-}
-
-.pricing .card span {
-  font-weight: 1000;
-}
-
-.pricing .card h1 {
-  position: absolute;
-}
-
-.pricing .card h2 {
-  position: absolute;
-}
-
-.pricing .card p {
-  position: absolute;
-}
-
-.pricing .card .checkBox {
-  position: relative;
 }
 
 .banner {

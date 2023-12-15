@@ -1,21 +1,21 @@
-document.getElementById("15Cups").onclick = subscribeMonthly;
+document.getElementById("oneTime").onclick = subscribeMonthly;
 function subscribeMonthly() {
-  document.getElementById("15Cups").style.backgroundColor = "#14cc60";
-  document.getElementById("15Cups").style.color = "#f5f5f5";
-  document.getElementById("30Cups").style.backgroundColor = "#f5f5f5";
-  document.getElementById("30Cups").style.color = "#0a2e36";
+  document.getElementById("oneTime").style.backgroundColor = "#ff3034";
+  document.getElementById("oneTime").style.color = "#ffffff";
+  document.getElementById("monthly").style.backgroundColor = "#fff6f7";
+  document.getElementById("monthly").style.color = "#ff3034";
 
-  $("#30CupsSubscription").css({ display: "none" });
-  $("#15CupsSubscription").css({ display: "flex" });
+  $("#monthlySubscriptionPlan").css({ display: "none" });
+  $("#oneTimeSubscriptionPlan").css({ display: "flex" });
 }
 
-document.getElementById("30Cups").onclick = subscribeYearly;
+document.getElementById("monthly").onclick = subscribeYearly;
 function subscribeYearly() {
-  document.getElementById("30Cups").style.backgroundColor = "#14cc60";
-  document.getElementById("30Cups").style.color = "#f5f5f5";
-  document.getElementById("15Cups").style.backgroundColor = "#f5f5f5";
-  document.getElementById("15Cups").style.color = "#0a2e36";
+  document.getElementById("monthly").style.backgroundColor = "#ff3034";
+  document.getElementById("monthly").style.color = "#ffffff";
+  document.getElementById("oneTime").style.backgroundColor = "#fff6f7";
+  document.getElementById("oneTime").style.color = "#ff3034";
 
-  $("#15CupsSubscription").css({ display: "none" });
-  $("#30CupsSubscription").css({ display: "flex" });
+  $("#oneTimeSubscriptionPlan").css({ display: "none" });
+  $("#monthlySubscriptionPlan").css({ display: "flex" });
 }
